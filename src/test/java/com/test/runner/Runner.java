@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-    features = "src/main/resources/features",
+    features = "src/test/resources/features",
     glue = {"com.guru99.steps"},  
     plugin = {"json:target/cucumber.json","pretty", "html:target/cucumber-html-report"},
     monochrome = true
